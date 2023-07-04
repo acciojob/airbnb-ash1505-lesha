@@ -7,6 +7,7 @@ import com.driver.model.User;
 import org.springframework.stereotype.Repository;
 
 import java.util.*;
+
 @Repository
 public class HotelManagementRepoaitory {
     Map<String, Hotel> hotelMap = new HashMap<>(); //hotelName -> hotel
